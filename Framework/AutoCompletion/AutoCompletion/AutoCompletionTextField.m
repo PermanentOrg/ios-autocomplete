@@ -201,12 +201,6 @@
             {
                 NSInteger rows = items.count;
                 [weakSelf showSuggestionsTableViewForNumberOfRows:rows];
-                id item = items[0];
-                if ([item valueForKey:textKey]) {
-                    [self updateSuggestionPlaceholderTextFieldWithString:[self extractSubstringFromString:[item valueForKey:textKey] startingWithString:self.text] ];
-                } else {
-                    [self updateSuggestionPlaceholderTextFieldWithString:@""];
-                }
             }
             else
             {

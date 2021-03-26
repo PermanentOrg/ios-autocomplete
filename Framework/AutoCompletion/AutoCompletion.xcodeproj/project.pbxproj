@@ -72,6 +72,7 @@
 				7AB6A1221C201A7900691478 /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		7AB6A1221C201A7900691478 /* Products */ = {
 			isa = PBXGroup;
@@ -184,6 +185,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7AB6A1171C201A7900691478;
